@@ -1,0 +1,17 @@
+
+/* seletores de tag*/
+    body {
+      background: linear-gradient( #1A1A40, #270082, #7A0BC0);
+    }
+
+    hr {
+
+      border-style: none;
+      border-top:5px dotted #C400C6 ;
+      width: 5%;
+
+}
+/* seletores de classe */
+.cor1 {color: #D8B9C3}
+.contato{color:  #C400C6;    }
+.hover: hover{color: #49FF00;}
