@@ -8,6 +8,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: Ubuntu, sans-serif;
+  color: #40514E;
 }
 
 h1 {
@@ -31,7 +32,7 @@ h3 {
 
 hr {
   border-style: none;
-  border-top: 5px dotted #C400C6;
+  border-top: 5px dotted;
   width: 5%;
 }
 
@@ -70,7 +71,7 @@ p {
   display: inline;
   padding: 100px 0 0 65px;
 }
-
+.stricon {color: black;}
 .redeicon {
   position: absolute;
   padding: 100px 0 0 554px;
@@ -119,6 +120,7 @@ p {
 
 .bottom-container {
   background-color: #C1F8CF;
+
 }
 
 .lmb {
