@@ -1,14 +1,11 @@
-/*
-  body {
-    background: linear-gradient( #1A1A40, #270082, #7A0BC0);
-}
-*/
+
+
 /* seletor de tag*/
 body {
   margin: 0;
   text-align: center;
   font-family: Ubuntu, sans-serif;
-  color: #40514E;
+  color: #2C3333;
 }
 
 h1 {
@@ -21,7 +18,11 @@ h2 {
   color: #66BFBF;
   font-weight: normal;
 }
+label {color: #40514E;
+  font-size: 1.25rem;
 
+
+}
 a {
   color: #11999E
 }
@@ -72,6 +73,7 @@ p {
   padding: 100px 0 0 65px;
 }
 .stricon {color: black;}
+
 .redeicon {
   position: absolute;
   padding: 100px 0 0 554px;
@@ -79,7 +81,7 @@ p {
 }
 
 .contact-me {
-  background-color: #C1F8CF;
+  background-color: #203239;
   margin-bottom: 40px;
 }
 
@@ -98,28 +100,38 @@ p {
 .btn:hover {   background:  #4FD3C4;
 
 }
+.saturno {
+position: relative;
+bottom: 20px;
+ width: 300px;
+height: 300px;}
 
-.top-cloud {
+.top-asteroide {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 20px;
+}
+.right-asteroide {position: absolute;
+  right: 250px;
+  top: 400px;
+
 }
 
-.bottom-cloud {
+.bottom-asteroide {
   position: absolute;
   left: 300px;
   top: 337px;
 }
 
 .top-container {
-  background-color: #166678;
+  background-color: #191919;
   padding-top: 100px;
 }
 
 .middle-container {}
 
-.bottom-container {
-  background-color: #C1F8CF;
+.bottom-container { background-color: #203239;
+  padding-bottom : 2px;
 
 }
 
