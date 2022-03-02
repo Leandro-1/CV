@@ -10,26 +10,26 @@ body {
 
 h1 {
   font-size: 5.625rem;
-  color: #66BFBF;
+  color: #203239;
 }
 
 h2 {
   font-size: 2.5rem;
-  color: #66BFBF;
+  color: #203239;
   font-weight: normal;
 }
+
+h3 {color: #203239;}
+
 label {color: #40514E;
   font-size: 1.25rem;
 
 
 }
-a {
-  color: #11999E
-}
+a {color: #11999E}
 
-h3 {
-  color: #11999E
-}
+
+
 
 hr {
   border-style: none;
@@ -46,7 +46,7 @@ p {
   margin: 47px auto 0;
   line-height: -2;
 }
-
+ .darkback { color: #EEEDDE;}
 .profile-image {
   margin-top: 20px;
 }
@@ -80,26 +80,6 @@ p {
   padding-left: 554px;
 }
 
-.contact-me {
-  background-color: #203239;
-  margin-bottom: 40px;
-}
-
-.btn {
-  background-color: #2D31FA;
-  color: white;
-  padding: 10px 8px;
-  border: 1px;
-  border-radius: 5px;
-  width: 50px;
-  text-align: center;
-  user-select: none;
-  cursor:pointer;
-  transition: 1s;
-}
-.btn:hover {   background:  #4FD3C4;
-
-}
 .saturno {
 position: relative;
 bottom: 20px;
@@ -114,7 +94,6 @@ height: 300px;}
 .right-asteroide {position: absolute;
   right: 250px;
   top: 400px;
-
 }
 
 .bottom-asteroide {
@@ -128,13 +107,32 @@ height: 300px;}
   padding-top: 100px;
 }
 
-.middle-container {}
 
+  .contact-me {
+    background-color: #203239;
+    margin-bottom: 50px;
+    }
+    .btn {
+      background-color: #5800FF;
+      color: #EEEDDE;
+      padding: 10px 8px;
+      border: 1px;
+      border-radius: 5px;
+      width: 50px;
+      text-align: center;
+      user-select: none;
+      cursor:pointer;
+      transition: 1s;
+      margin-top: 10px;
+    }
+    .btn:hover {   background: linear-gradient( #1A1A40, #270082, #7A0BC0);}
+
+  .contacticon { margin-bottom: 15px;
+
+  }
 .bottom-container { background-color: #203239;
   padding-bottom : 2px;
-
+  padding-top: 5px;
 }
 
-.lmb {
-  font-size: 0.75rem
-}
+.lmb {font-size: 0.75rem}
