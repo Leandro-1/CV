@@ -1,5 +1,3 @@
-
-
 /* seletor de tag*/
 body {
   margin: 0;
@@ -19,17 +17,18 @@ h2 {
   font-weight: normal;
 }
 
-h3 {color: #203239;}
-
-label {color: #40514E;
-  font-size: 1.25rem;
-
-
+h3 {
+  color: #203239;
 }
-a {color: #11999E}
 
+label {
+  color: #40514E;
+  font-size: 1.25rem;
+}
 
-
+a {
+  color: #11999E
+}
 
 hr {
   border-style: none;
@@ -46,7 +45,14 @@ p {
   margin: 47px auto 0;
   line-height: -2;
 }
- .darkback { color: #EEEDDE;}
+.intro {padding-top: 10px;
+
+}
+
+.darkback {
+  color: #EEEDDE;
+}
+
 .profile-image {
   margin-top: 20px;
 }
@@ -72,7 +78,10 @@ p {
   display: inline;
   padding: 100px 0 0 65px;
 }
-.stricon {color: black;}
+
+.stricon {
+  color: black;
+}
 
 .redeicon {
   position: absolute;
@@ -81,17 +90,20 @@ p {
 }
 
 .saturno {
-position: relative;
-bottom: 20px;
- width: 300px;
-height: 300px;}
+  position: relative;
+  bottom: 20px;
+  width: 300px;
+  height: 300px;
+}
 
 .top-asteroide {
   position: absolute;
   right: 300px;
   top: 20px;
 }
-.right-asteroide {position: absolute;
+
+.right-asteroide {
+  position: absolute;
   right: 250px;
   top: 400px;
 }
@@ -107,32 +119,67 @@ height: 300px;}
   padding-top: 100px;
 }
 
+.contact-me {
+  background-color: #203239;
+  margin-bottom: 50px;
+}
 
-  .contact-me {
-    background-color: #203239;
-    margin-bottom: 50px;
-    }
-    .btn {
-      background-color: #5800FF;
-      color: #EEEDDE;
-      padding: 10px 8px;
-      border: 1px;
-      border-radius: 5px;
-      width: 50px;
-      text-align: center;
-      user-select: none;
-      cursor:pointer;
-      transition: 1s;
-      margin-top: 10px;
-    }
-    .btn:hover {   background: linear-gradient( #1A1A40, #270082, #7A0BC0);}
+.btn {
+  background-color: #5800FF;
+  color: #EEEDDE;
+  padding: 10px 8px;
+  border: 1px;
+  border-radius: 5px;
+  width: 50px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+  transition: 1s;
+  margin-top: 10px;
+}
 
-  .contacticon { margin-bottom: 15px;
+.btn:hover {
+  background: linear-gradient(#1A1A40, #270082, #7A0BC0);
+}
 
-  }
-.bottom-container { background-color: #203239;
-  padding-bottom : 2px;
+.contacticon {
+  margin-bottom: 15px;
+}
+
+.bottom-container {
+  background-color: #203239;
+  padding-bottom: 2px;
   padding-top: 5px;
 }
 
-.lmb {font-size: 0.75rem}
+.contato {
+  background: linear-gradient(#000000, #150050, #3F0071);
+}
+
+.formulario {
+  background: #230338;
+}
+
+.area {
+  position: relative;
+  left: 37%;
+  top: 29%;
+  width: 320px;
+  height: 270px;
+}
+
+.area .formulario {
+  position: absolute;
+  display: block;
+}
+
+fieldset {
+  border-radius: 5px;
+  width: 300px;
+  height: 250px;
+}
+
+.lmb {
+  color: #EEEDDE;
+  font-size: 0.75rem
+}

@@ -5,29 +5,24 @@
 				<link rel="icon" href="favicon.ico">
 				<link rel="stylesheet" href="css\style.css">
 </head>
-<body>
-	<h1>Mande uma mensagem!</h1>
-	<hr>
-		<h3>Tel: +55 13 997199999</h3>
-		<h3>E-mail: leandro199908@outlook.com</h3>
-		<h3></h3>
+<body class="contato">
+	<h1 class="darkback">Mande uma mensagem!</h1>
+	<hr class="darkback">
+		<h3 class="darkback">Tel: +55 13 997199999</h3>
+		<h3 class="darkback">E-mail: leandro199908@outlook.com</h3>
 
 
-<form class="" action="mailto:leandro199908@outlook.com" method="post" enctype="text/plain">
-	<label for="">Nome:</label>
-	<input type="text" name="Nome" value="">
-	<br>
-	<label for="">        E-mail:</label>
-	<input type="text" name="e-mail">
-	<br>
-	<br>
-	<label for="">Digite sua mensagem:</label>
-	<br>
-	<br>
-	<textarea name="mensagem" rows="8" cols="80"></textarea>
-	<br>
-<input type="submit" name="" value="Enviar">
-
+<form class="form" action="mailto:leandro199908@outlook.com" method="post" enctype="text/plain">
+	<div class="area">
+    <form class= "formulario" autocomplete="off">
+      <fieldset  class= "formulario">
+        <legend class="darkback">Formulário</legend>
+        <label class="darkback">Nome:</label><input class="campo_nome" type="text"><br>
+        <label class="darkback">Email:</label><input class="campo_email" type="password"><br>
+        <label class="darkback">Mensagem:</label><br><textarea class="msg" cols="35" rows="8"></textarea><br>
+        <input class="btn_submit" type="submit" value="Enviar">
+      </fieldset>
+    </form>
 	<br>
 </form>
 </body>
